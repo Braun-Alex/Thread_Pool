@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+project(Thread_Pool)
+set(CMAKE_CXX_STANDARD 23)
+set(PROJECT_SOURCES thread_pool.h)
+add_executable(${PROJECT_NAME} ${PROJECT_SOURCES})
